@@ -58,7 +58,7 @@ public class WebScannerApp extends JFrame {
         resultArea.setText(""); // Clear previous results
         executor = Executors.newFixedThreadPool(5);
 
-        String apiKey = "AIzaSyB5oLlt7mIO63taSYmQK5ATzClYnQnZrf0";
+        String apiKey = "#VALID API KEY";
         String cx = "d625ccdc0906f4f30";
         String url = "https://www.googleapis.com/customsearch/v1?key=" + apiKey + "&cx=" + cx + "&q=" + query;
 
